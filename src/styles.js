@@ -7,13 +7,13 @@ const colors = {
 }
 
 export const title = css`
-	background-color: ${colors.accent};
-	font-size: 1em;
-	white-space: nowrap;
-	margin: 0;
-	text-align: center;
-	padding: 8px 16px;
-	text-transform: uppercase;
+  background-color: ${colors.accent};
+  font-size: 1em;
+  white-space: nowrap;
+  margin: 0;
+  text-align: center;
+  padding: 8px 16px;
+  text-transform: uppercase;
 `;
 
 export const switcher = css`

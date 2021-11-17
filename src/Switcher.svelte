@@ -10,7 +10,7 @@
 		{#each demos as { name, link }}
 			{#if window.location.origin !== link }
 				<li class="{demo}">
-					<a href="{link}"class={linkItem}>
+					<a href="{link}" class={linkItem}>
 						{name}
 					</a>
 				</li>
