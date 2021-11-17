@@ -2,11 +2,11 @@
   "demos": [
     {
       "name": "Vuestorefront + Magento",
-      "link": "https://vuestorefront-magento.demo.hatimeria.com/"
+      "link": "https://vuestorefront-magento.demo.hatimeria.com"
     },
     {
       "name": "Vuestorefront + Shopify",
-      "link": "https://vuestorefront-shopify.demo.hatimeria.com/"
+      "link": "https://vuestorefront-shopify.demo.hatimeria.com"
     },
     {
       "name": "Next Js Commerce + Big Commerce",
