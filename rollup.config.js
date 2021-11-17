@@ -30,12 +30,12 @@ function serve() {
 }
 
 export default {
-	input: 'src/switcher.js',
+	input: 'src/app.js',
 	output: {
 		sourcemap: true,
 		format: 'iife',
-		name: 'app',
-		file: 'public/build/bundle.js'
+		name: 'HatimeriaDemoSwitcher',
+		file: 'public/build/switcher.js'
 	},
 	plugins: [
 		svelte({
