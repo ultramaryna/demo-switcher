@@ -1,4 +1,4 @@
 (function() {
   const switcher = new window.HatimeriaDemoSwitcher();
-  switcher.render('#demo-switcher');
+  switcher.render({ target: '#demo-switcher' });
 })();

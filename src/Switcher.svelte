@@ -1,7 +1,8 @@
 <script>
-	import data from './data.json'
-	import { title, switcher, list, demo, linkItem } from './styles.js';
-	export let demos = data.demos;
+	import { title, switcher, list, demo, linkItem } from './styles.js'
+	export let demos
+	export let type
+	console.log(type);
 </script>
 
 <aside class={switcher}>

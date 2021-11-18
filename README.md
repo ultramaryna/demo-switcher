@@ -2,7 +2,7 @@
 
 ```javascript
 const switcher = new HatimeriaDemoSwitcher();
-switcher.render('#demo-switcher');
+switcher.render({ target: '#demo-switcher' });
 ```
 
 ## Develop
