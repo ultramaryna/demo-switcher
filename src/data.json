@@ -2,15 +2,18 @@
   "demos": [
     {
       "name": "Vuestorefront + Magento",
-      "link": "https://vuestorefront-magento.demo.hatimeria.com"
+      "link": "https://vuestorefront-magento.demo.hatimeria.com",
+      "img": "https://picsum.photos/seed/picsum/400/300"
     },
     {
       "name": "Vuestorefront + Shopify",
-      "link": "https://vuestorefront-shopify.demo.hatimeria.com"
+      "link": "https://vuestorefront-shopify.demo.hatimeria.com",
+      "img": "https://picsum.photos/seed/picsum/400/300"
     },
     {
       "name": "Next Js Commerce + Big Commerce",
-      "link": ""
+      "link": "",
+      "img": "https://picsum.photos/seed/picsum/400/300"
     }
   ]
 }

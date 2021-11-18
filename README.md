@@ -4,6 +4,22 @@
 const switcher = new HatimeriaDemoSwitcher();
 switcher.render({ target: '#demo-switcher' });
 ```
+**Type**
+
+You can pass 'homepage' as ```type``` argument to render demos as homepage blocks:
+```javascript
+switcher.render({ target: '#demo-switcher', type: 'homepage' });
+```
+
+**Custom data**
+
+Default list of demos is stored in this project settings, but you can pass custom data like this:
+```javascript
+switcher.render({ 
+  target: '#demo-switcher', 
+  data: [{ name: 'New demo', link: 'https://new-demo.demo.hatimeria.com', img: '' }] 
+});
+```
 
 ## Develop
 

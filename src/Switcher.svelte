@@ -1,17 +1,20 @@
 <script>
-	import { title, switcher, list, demo, linkItem } from './styles.js'
+	import { title, homeTitle, switcher, list, demo, linkInline, linkBlock, demoBlock, image } from './styles.js'
 	export let demos
 	export let type
-	console.log(type);
+	export const isHomepage = type === 'homepage';
 </script>
 
-<aside class={switcher}>
-	<p class={title}>See our other demos!</p>
+<aside class={!isHomepage && switcher}>
+	<p class={isHomepage ? homeTitle : title}>See our other demos!</p>
 	<ul class={list}>
-		{#each demos as { name, link }}
+		{#each demos as { name, link, img }}
 			{#if window.location.origin !== link }
-				<li class="{demo}">
-					<a href="{link}" class={linkItem}>
+				<li class="{isHomepage ? demoBlock : demo}">
+					<a href="{link}" class={isHomepage ? linkBlock : linkInline}>
+						{#if isHomepage }
+							<img src="{img}" alt="{name}" class={image} />
+						{/if}
 						{name}
 					</a>
 				</li>
