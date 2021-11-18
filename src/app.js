@@ -1,6 +1,6 @@
 import Switcher from './Switcher.svelte'
 
-class App {
+class HatimeriaDemoSwitcher {
 	render(target) {
 		new Switcher({
 			target: document.querySelector(target)
@@ -8,4 +8,6 @@ class App {
 	}
 }
 
-export default App;
+window.HatimeriaDemoSwitcher = HatimeriaDemoSwitcher;
+
+export default HatimeriaDemoSwitcher;
