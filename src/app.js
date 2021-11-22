@@ -13,6 +13,7 @@ class HatimeriaDemoSwitcher {
 	}
 }
 
-window.HatimeriaDemoSwitcher = HatimeriaDemoSwitcher;
+window.HatimeriaDemoSwitcher = HatimeriaDemoSwitcher
+document.dispatchEvent(new CustomEvent('switcherLoaded'))
 
 export default HatimeriaDemoSwitcher;
