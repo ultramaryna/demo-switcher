@@ -28,7 +28,7 @@ export const switcher = css`
   left: 0;
   bottom: 0;
   background: ${colors.dark};
-  z-index: 10;
+  z-index: 33;
 `;
 
 export const list = css`
